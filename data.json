@@ -1,0 +1,82 @@
+[
+    {
+        "id":1,
+        "name":"Ryan Lam",
+        "gender": "male",
+        "contact":4658786569,
+        "address":"Canada",
+        "photoURL":"https://randomuser.me/api/portraits/men/28.jpg"
+    },
+    {
+        "id":2,
+        "name":"Konstantinos Ram",
+        "gender": "male",
+        "contact":4658784895,
+        "address":"Netherlands",
+        "photoURL":"https://randomuser.me/api/portraits/men/70.jpg"
+    },
+    {
+        "id":3,
+        "name":"Anthony Chevalier",
+        "gender": "male",
+        "contact":4658787874,
+        "address":"Switzerland",
+        "photoURL":"https://randomuser.me/api/portraits/men/63.jpg"
+    },
+    {
+        "id":4,
+        "name":"Raphaela Joly",
+        "gender": "female",
+        "contact":4897786569,
+        "address":"Switzerland",
+        "photoURL":"https://randomuser.me/api/portraits/women/34.jpg"
+    },
+    {
+        "id":5,
+        "name":"Victoria Gardner",
+        "gender": "female",
+        "contact":46525478569,
+        "address":"Ireland",
+        "photoURL":"https://randomuser.me/api/portraits/women/52.jpg"
+    },
+    {
+        "id":6,
+        "name":"Albert Holt",
+        "gender": "male",
+        "contact":4645876569,
+        "address":"United Kingdom",
+        "photoURL":"https://randomuser.me/api/portraits/men/62.jpg"
+    },
+    {
+        "id":7,
+        "name":"Concepción Martin",
+        "gender": "female",
+        "contact":46587587969,
+        "address":"Spain",
+        "photoURL":"https://randomuser.me/api/portraits/women/31.jpg"
+    },
+    {
+        "id":8,
+        "name":"Adam Turner",
+        "gender": "male",
+        "contact":9874786569,
+        "address":"New Zealand",
+        "photoURL":"https://randomuser.me/api/portraits/men/50.jpg"
+    },
+    {
+        "id":9,
+        "name":"Olivia Abraham",
+        "gender": "female",
+        "contact":7845786569,
+        "address":"Canada",
+        "photoURL":"https://randomuser.me/api/portraits/women/62.jpg"
+    },
+    {
+        "id":10,
+        "name":"Christiane Dietrich",
+        "gender": "female",
+        "contact":4647886569,
+        "address":"Germany",
+        "photoURL":"https://randomuser.me/api/portraits/women/41.jpg"
+    }
+]
