@@ -8,7 +8,7 @@ app.use('/user',router)
 
 
 app.get('/',(req,res)=>{
-    
+    res.send('database')
 })
 
 app.listen(port,()=>{

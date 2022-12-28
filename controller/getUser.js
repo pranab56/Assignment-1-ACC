@@ -15,8 +15,12 @@ module.exports.allUser=(req,res)=>{
 module.exports.postUser=(req,res)=>{
     const data=req.body;
     user.push(data);
-    console.log(user);
-    
-    res.send('post method');
-  
+    res.send(user);
+}
+
+module.exports.UpdateUser=(req,res)=>{
+    const {id}=req.params;
+    const updateUser=user.find(person=>person.id===Number(id));
+    updateUser.contact=req.body.contact
+    res.send(updateUser)
 }
