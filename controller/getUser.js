@@ -41,3 +41,8 @@ module.exports.UpdateUser = (req, res) => {
     }
  
 };
+module.exports.deleteUser = (req, res) => {
+    const {id}=req.params;
+    const deletePerson=user.filter(p=>p.id != id);
+    res.send(deletePerson)
+};
