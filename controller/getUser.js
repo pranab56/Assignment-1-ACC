@@ -21,7 +21,7 @@ module.exports.postUser = (req, res) => {
     !data.address ||
     !data.photoURL
   ) {
-    return res.send("please from flup");
+    return res.send("please validated the body");
   } else {
     user.push(data);
     return res.send(user);
@@ -30,7 +30,14 @@ module.exports.postUser = (req, res) => {
 
 module.exports.UpdateUser = (req, res) => {
   const { id } = req.params;
-  const updateUser = user.find((person) => person.id === Number(id));
-  updateUser.contact = req.body.contact;
-  res.send(updateUser);
+  const {contact}=req.body;
+    const updateUser = user.find((person) => person.id === Number(id));
+    if(!updateUser){
+        return res.send("please valid id")
+    }
+    else{
+        updateUser.contact =contact;
+        return res.send(updateUser);
+    }
+ 
 };
