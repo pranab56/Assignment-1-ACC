@@ -8,9 +8,7 @@ module.exports.randomUser=(req,res)=>{
 }
 
 module.exports.allUser=(req,res)=>{
-    const {s}=req.query;
-    if(user.length===Number(s)){
-        console.log(user);
-    }
-    res.send('database')
+    const {s} =req.query;
+    const result=user.slice(0,s);
+    res.send(result)
 }
